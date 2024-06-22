@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hashtag-header {
+    padding: 5rem;
+    color: white;
+    background-image: url("./Images/background-img.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+span {
+    font-size: 1.3rem;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    vertical-align: middle;
+}
+
+img + img {
+    margin-left: -28px;
+}
